@@ -2,7 +2,7 @@
 
 # Sisir Kausthubh
 
-<a href="https://github.com/captof-omuamua"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=7C3AED&center=true&vCenter=true&width=640&lines=Exploring+local-first+AI;RAG+%C2%B7+fine-tuning+(QLoRA)+%C2%B7+RL;NLP+%C2%B7+speech+%C2%B7+vision-language+models" alt="Exploring local-first AI · RAG, fine-tuning (QLoRA), RL · NLP, speech, vision-language models" /></a>
+<a href="https://github.com/captof-omuamua"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=7C3AED&center=true&vCenter=true&width=640&lines=Exploring+local-first+AI;RAG+%C2%B7+fine-tuning+(QLoRA)+%C2%B7+RL;NLP+%C2%B7+speech+%C2%B7+vision-language+models;Robotics+%C2%B7+edge+AI" alt="Exploring local-first AI · RAG, fine-tuning (QLoRA), RL · NLP, speech, vision-language models · robotics, edge AI" /></a>
 
 **Applied ML engineer** · B.Tech CSE (AI), 2025
 
