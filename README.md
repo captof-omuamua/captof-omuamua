@@ -2,9 +2,9 @@
 
 # Sisir Kausthubh
 
-<a href="https://github.com/captof-omuamua"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=7C3AED&center=true&vCenter=true&width=640&lines=LLM+applications+that+run+on+one+GPU;RAG+%C2%B7+fine-tuning+%C2%B7+vision-language+models;Measured+against+published+baselines" alt="LLM applications that run on one GPU · RAG, fine-tuning, vision-language models · measured against published baselines" /></a>
+<a href="https://github.com/captof-omuamua"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=7C3AED&center=true&vCenter=true&width=640&lines=Exploring+local-first+AI;RAG+%C2%B7+fine-tuning+(QLoRA)+%C2%B7+RL;NLP+%C2%B7+speech+%C2%B7+vision-language+models" alt="Exploring local-first AI · RAG, fine-tuning (QLoRA), RL · NLP, speech, vision-language models" /></a>
 
-**Applied ML engineer** · B.Tech CSE (AI), 2025 · India
+**Applied ML engineer** · B.Tech CSE (AI), 2025
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
