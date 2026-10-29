@@ -50,6 +50,7 @@ product attributes (sleeve style, neckline, material…) from photos.
 | [Tamil multimodal hate speech](https://github.com/captof-omuamua/tamil-multimodal-hate-speech) | B.Tech research: IndicBERT text + ViT/ResNet video features, pseudo-labelling and synthetic data for Tamil hate-speech classes. | Research draft |
 | [Malayalam summarization](https://github.com/captof-omuamua/phase2-summarization) | From-scratch PyTorch Transformer for Malayalam news-to-headline generation, plus a multimodal summarization proposal. | Research code |
 | [Warehouse navigation (DDPG)](https://github.com/captof-omuamua/warehouse-navigation-ddpg) | Deep RL for goal-directed robot navigation in a Gazebo warehouse, with reported training curves. | Report showcase |
+| [AI short video generator](https://github.com/captof-omuamua/ai-short-video-generator) | Full-stack Next.js app: topic → AI script, images, narration and captions → Remotion video preview, with Clerk auth. | Prototype (2024) |
 | [Indic document OCR](https://github.com/captof-omuamua/indic-document-ocr) | Layout preparation and OCR utilities for Indic-script documents. | Utilities |
 | [Smart home security](https://github.com/captof-omuamua/Smart-home-and-Smart-Security-System) | Raspberry Pi camera streaming with motion-triggered alerts and Arduino door control. | Hardware prototype |
 
