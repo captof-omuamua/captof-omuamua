@@ -30,6 +30,7 @@
 | [docs-rag-assistant](https://github.com/captof-omuamua/docs-rag-assistant) | FinanceBench, all 84 filings in one index | **61.8%** | 19% (GPT-4-Turbo RAG) |
 | [docs-rag-assistant](https://github.com/captof-omuamua/docs-rag-assistant) | FinanceBench, question's filing selected | **66.7%** | 50% (GPT-4-Turbo RAG) |
 | [visual-product-tagging](https://github.com/captof-omuamua/visual-product-tagging) | ImplicitAVE, hand-checked labels | **85.3%** | 86.8% (GPT-4V) |
+| [document-extraction-pipeline](https://github.com/captof-omuamua/document-extraction-pipeline) | CORD v2 receipts, field F1 | **84.0** | 83.3 (Donut, same scorer; 84.1 in paper) |
 
 ---
 
@@ -71,7 +72,7 @@ neckline, material and more.
 </td>
 </tr>
 <tr>
-<td colspan="2" valign="top">
+<td width="50%" valign="top">
 
 ### 🤖 [catalog-automation-agent](https://github.com/captof-omuamua/catalog-automation-agent)
 **An AI agent that fills in and checks product attributes from photos, with human review.**
@@ -85,6 +86,22 @@ Slack, Google Sheets, any REST/CSV catalog, and Claude over MCP.
 - **45 products/s** with FP8 on one laptop GPU, **₹0.35** per 1,000
 
 <sub>LangGraph · MCP server · n8n · vLLM (FP8) · FastAPI · Docker</sub>
+
+</td>
+<td width="50%" valign="top">
+
+### 🧾 [document-extraction-pipeline](https://github.com/captof-omuamua/document-extraction-pipeline)
+**Receipts and Indian GST invoices to checked data, with human review.**
+
+A fine-tuned 4B vision model reads the page; GSTIN, tax and PO/goods-received checks decide
+what skips a person.
+
+- **84.0** field F1 on CORD, level with Donut (83.3)
+- **84% / 91%** of invoices fully correct on seen / never-seen layouts
+- **84-91%** auto-accepted with **0** wrong ones let through
+- **76 / 76** planted problems caught; **₹6.8** per 1,000 pages (FP8)
+
+<sub>Qwen3.5-4B · LoRA · LangGraph · MCP · n8n · vLLM (FP8) · FastAPI</sub>
 
 </td>
 </tr>
@@ -132,7 +149,7 @@ Slack, Google Sheets, any REST/CSV catalog, and Claude over MCP.
 **Retrieval & apps:** Qdrant · Docling · FastAPI · Gradio · Docker  
 **Agents & automation:** LangGraph · MCP · n8n  
 **Quality:** pytest · GitHub Actions · held-out test splits · published baselines  
-**Domains:** RAG · AI agents · vision-language models · LLM evaluation · speech · Indic-language NLP · forecasting
+**Domains:** RAG · AI agents · vision-language models · document AI · LLM evaluation · speech · Indic-language NLP · forecasting
 
 <div align="center">
 <sub>Each project README covers setup, data and results. Datasets, model weights and third-party components keep their own licences.</sub>
