@@ -70,6 +70,24 @@ neckline, material and more.
 
 </td>
 </tr>
+<tr>
+<td colspan="2" valign="top">
+
+### 🤖 [catalog-automation-agent](https://github.com/captof-omuamua/catalog-automation-agent)
+**An AI agent that fills in and checks product attributes from photos, with human review.**
+
+Fetch → tag → auto-approve or pause for a reviewer → write back. Plugs into Shopify, n8n,
+Slack, Google Sheets, any REST/CSV catalog, and Claude over MCP.
+
+- **79.2%** of products auto-tagged at **94.6%** accuracy (ImplicitAVE test)
+- QC mode catches **67.8%** of wrong listings at **90%** precision
+- Crash-safe: **0 lost, 0 duplicate writes** under injected failures and a killed process
+- **45 products/s** with FP8 on one laptop GPU, **₹0.35** per 1,000
+
+<sub>LangGraph · MCP server · n8n · vLLM (FP8) · FastAPI · Docker</sub>
+
+</td>
+</tr>
 </table>
 
 ---
@@ -112,8 +130,9 @@ neckline, material and more.
 
 **Models & training:** PyTorch · Hugging Face · Unsloth/LoRA · vLLM  
 **Retrieval & apps:** Qdrant · Docling · FastAPI · Gradio · Docker  
+**Agents & automation:** LangGraph · MCP · n8n  
 **Quality:** pytest · GitHub Actions · held-out test splits · published baselines  
-**Domains:** RAG · vision-language models · LLM evaluation · speech · Indic-language NLP · forecasting
+**Domains:** RAG · AI agents · vision-language models · LLM evaluation · speech · Indic-language NLP · forecasting
 
 <div align="center">
 <sub>Each project README covers setup, data and results. Datasets, model weights and third-party components keep their own licences.</sub>
